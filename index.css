@@ -17,13 +17,6 @@ body {
   width: 100vw;
 }
 
-input,
-select,
-textarea,
-button {
-  outline: 0;
-}
-
 .main {
   min-height: 100vh;
   width: 100%;
@@ -111,14 +104,14 @@ button {
   gap: 0.4rem;
   top: 1.1rem;
   left: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 400;
   align-items: center;
   color: #555555;
 }
 
 .content-header > .title {
-  font-size: 4.6rem;
+  font-size: 3rem;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -137,7 +130,7 @@ button {
 .end-line {
   display: flex;
   align-items: flex-start;
-  font-size: 4.6rem;
+  font-size: 3rem;
 }
 
 .content-header > .background {
@@ -198,8 +191,8 @@ button {
 
 .avatar {
   position: relative;
-  width: 30rem;
-  height: 37.8rem;
+  width: 26rem;
+  height: 36rem;
 }
 
 .avatar > .decoration {
@@ -219,7 +212,7 @@ button {
 
 .introduction > div > span,
 div {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 500;
   display: inline;
 }
@@ -231,7 +224,7 @@ div {
 
 .introduction > div > .name > .underline {
   background-color: rgba(251, 155, 114, 0.78);
-  height: 0.6rem;
+  height: 0.4rem;
   width: 100%;
   position: absolute;
   bottom: 0.4rem;
@@ -239,7 +232,7 @@ div {
 }
 
 .introduction > p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #555555;
 }
@@ -258,7 +251,7 @@ div {
 }
 
 .introduction div.subtitle > span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #111111;
   text-wrap: nowrap;
@@ -271,7 +264,7 @@ div {
 }
 
 .introduction div.subtitle > span.subtitle-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #555555;
   text-wrap: nowrap;
@@ -375,7 +368,7 @@ div {
 }
 
 .project > .title .text h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 500;
   color: #111111;
 }
@@ -386,7 +379,7 @@ div {
 }
 
 .project > .title .text p {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 400;
   font-weight: 500;
   color: #555555;
@@ -396,7 +389,7 @@ div {
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 1.2rem;
 }
 
 .project-image {
@@ -414,7 +407,7 @@ div {
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #555555;
 }
@@ -426,12 +419,12 @@ div {
 }
 
 .project-tag {
-  padding: 0.8rem 1.2rem;
+  padding: 0.6rem 1rem;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-right-radius: 30px;
   border: #00a070 1px solid;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: #00a070;
 }
