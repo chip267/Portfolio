@@ -36,8 +36,8 @@ body {
   right: 0;
   left: 0;
   z-index: 10;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .social-media {
@@ -131,12 +131,13 @@ body {
   display: flex;
   align-items: flex-start;
   font-size: 3rem;
+  font-weight: 600;
 }
 
 .content-header > .background {
   position: absolute;
   width: 50rem;
-  height: 50rem;
+  height: 40rem;
   top: -5rem;
   left: calc(50% - 50rem / 2);
   background: url(./assets/images/introductionBackground.png) no-repeat center;
@@ -147,11 +148,10 @@ body {
 .content-header > .blur {
   position: absolute;
   width: 70%;
-  height: 46rem;
-  top: -5rem;
+  height: 40rem;
+  top: -6rem;
   left: calc(50% - 70% / 2);
-  background: url(./assets/images/d4b8e8a6-b4e0-421c-b6c3-b3645fd9d234.png)
-    no-repeat center;
+  background: url(./assets/images/backgroundBlur.png) no-repeat center;
   background-size: cover;
   z-index: -1;
 }
@@ -212,7 +212,7 @@ body {
 
 .introduction > div > span,
 div {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 500;
   display: inline;
 }
@@ -264,7 +264,7 @@ div {
 }
 
 .introduction div.subtitle > span.subtitle-text {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #555555;
   text-wrap: nowrap;
@@ -299,7 +299,7 @@ div {
   border-top: 1px solid #f9735f;
   border-bottom: 1px solid #f9735f;
   position: relative;
-  height: 8rem;
+  height: 5rem;
   margin-top: 4rem;
 }
 
@@ -315,7 +315,7 @@ div {
 
 .scrolling-element > span {
   color: #f9735f;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
   white-space: nowrap;
 }
@@ -390,6 +390,7 @@ div {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .project-image {
@@ -407,15 +408,17 @@ div {
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #555555;
+  text-wrap: nowrap;
 }
 
 .project-goal {
   color: #191919;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin: 0 3rem;
 }
 
 .project-tag {
@@ -424,8 +427,9 @@ div {
   border-bottom-left-radius: 50px;
   border-top-right-radius: 30px;
   border: #00a070 1px solid;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
+  text-wrap: nowrap;
   color: #00a070;
 }
 
