@@ -368,7 +368,7 @@ div {
 }
 
 .project > .title .text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #111111;
 }
@@ -379,7 +379,7 @@ div {
 }
 
 .project > .title .text p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
   font-weight: 500;
   color: #555555;
